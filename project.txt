@@ -1,0 +1,36 @@
+http://localhost:5000
+
+
+
+[users]
+
+/users:    gets all users
+/users/account:  accountingizni tokeniz orqali chiqaradi
+/users/login 
+/users/signup
+
+
+[fanlar]
+
+/fanlar  gets all fanlar
+/fanlar/:fan_id   select by fan.fan_id
+
+[tests]
+/tests/:fan_id get
+/tests/:fan_id  test yechish 
+
+[
+    {
+    "answer": "50 : misol uchun"
+    },
+    {
+    "answer": "50 : misol uchun"
+    },
+    {
+    "answer": "50 : misol uchun"
+    },
+    {
+    "answer": "50 : misol uchun"
+    }
+]
+
